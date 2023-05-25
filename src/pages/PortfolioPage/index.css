@@ -1,0 +1,44 @@
+.portfolio-page-container {
+
+}
+
+.portfolio-card-link {
+  text-decoration: none;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  margin-top: 40px;
+  font-size: 45px;
+  color: #0563bb;
+}
+
+.divider {
+  width: 70%;
+  height: 1px;
+  background-color: #45505b;
+  margin: 20px 0;
+  opacity: 0.2;
+}
+
+.card-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* 4k */
+/* .card-container {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+} */

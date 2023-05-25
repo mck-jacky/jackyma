@@ -1,0 +1,88 @@
+.home-page-container {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-page-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../images/background.jpg');
+  opacity: 0.18;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+ 
+.home-page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: 2;
+}
+
+.name {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #45505b;
+  z-index: 2;
+}
+
+.text {
+  color: #45505b;
+  margin: 15px 0 0 0;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  z-index: 2;
+  text-align: center;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.typing-text-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.start-text {
+  margin-right: 5px;
+}
+
+.typing-text {
+  animation: typing 3s infinite;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.social-links {
+  margin-top: 30px;
+  z-index: 2;
+}
+
+.social-links-icon {
+  margin-right: 20px;
+  font-size: 24px;
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .text {
+    font-size: 18px; /* Decrease the font size for smaller screens */
+    white-space: normal; /* Allow text to wrap to multiple lines */
+  }
+}

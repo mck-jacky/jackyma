@@ -1,0 +1,29 @@
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: perspective(800px) rotateX(5deg) translateY(-5px);
+  /* transform: rotateY(180deg); */
+  cursor: pointer;
+}
+
+.card-image {
+  max-width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.product-name {
+  font-size: 1.5rem;
+  color: #1A2B38;
+}
+
+.name-of-event {
+  color: #0563bb;
+}

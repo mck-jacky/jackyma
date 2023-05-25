@@ -1,0 +1,60 @@
+.project-content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+}
+
+.carousel-container {
+  max-width: 50%; /* Set the desired maximum width */
+  margin: 0 auto; /* Center the carousel horizontally */
+}
+
+.project-description {
+  max-width: 50%;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.625;
+  color: grey;
+}
+
+.project-event {
+  font-weight: 700;
+  color: #0563bb;
+}
+
+.project-event .icon {
+  margin-right: 12px;
+}
+
+.icon-containers {
+  margin-top: 20px;
+}
+
+.icon-containers .icon {
+  margin-right: 15px;
+}
+
+.link-containers {
+  margin-top: 20px;
+}
+
+.link-containers .icon {
+  margin-left: 15px;
+}
+
+.icon-react {
+  color: #61DAFB;
+}
+
+@media (max-width: 767px) {
+  .carousel-container {
+    max-width: 80%; /* Set the desired maximum width */
+    margin: 0 auto; /* Center the carousel horizontally */
+  }
+
+  .project-description {
+    max-width: 80%;
+  }
+}
