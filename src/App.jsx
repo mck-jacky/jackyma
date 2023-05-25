@@ -18,7 +18,7 @@ import './index.css';
 function App() {
   return (
     <div className='App'>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="/jackyma">
         <Routes>
           <Route path="/" element={<HomePage />}/>
           <Route path="/portfolio" element={<PortfolioPage />}/>
