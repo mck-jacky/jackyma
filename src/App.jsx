@@ -12,6 +12,7 @@ import LighthousePage from './pages/PortfolioPage/Projects/LighthousePage';
 import ParkMatePage from './pages/PortfolioPage/Projects/ParkMatePage';
 import QuantSocPage from './pages/PortfolioPage/Projects/QuantSocPage/QuantSocPage';
 import AirbrbPage from './pages/PortfolioPage/Projects/Airbrb';
+import YOLOPage from './pages/PortfolioPage/Projects/YOLOPage';
 import AboutPage from './pages/AboutPage';
 import './index.css';
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/portfolio/parkmate" element={<ParkMatePage />}/>
           <Route path="/portfolio/quantsoc" element={<QuantSocPage />}/>
           <Route path="/portfolio/airbrb" element={<AirbrbPage />}/>
+          <Route path="/portfolio/yolo" element={<YOLOPage />}/>
           {/* <Route
             path="/photos"
             element={<PhotosPage />}

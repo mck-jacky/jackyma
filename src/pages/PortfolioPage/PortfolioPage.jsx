@@ -12,6 +12,8 @@ import Airbrb from '../../images/Airbrb.png'
 import QuantSocLogo from '../../images/QuantSocLogo.png'
 import QuantSoc from '../../images/QuantSoc.png'
 import MoneyManagerLogo from '../../images/MoneyManagerLogo.png'
+import YOLOLogo from '../../images/YOLOLogo.png'
+import YOLO from '../../images/YOLO8.png'
 
 const PortfolioPage = () => {
   return (
@@ -21,6 +23,14 @@ const PortfolioPage = () => {
         <h1 className='title'>Portfolio</h1>
         <hr className='divider' />
         <div className='card-container'>
+          <Link to="/portfolio/yolo" className="portfolio-card-link">
+            <PortfolioCard 
+              productName="YOLO"
+              nameOfEvent="UNSW CSESoc Annual Flagshop Hackathon - 3nd Place"
+              image={YOLOLogo} 
+              hoverImage={YOLO}
+            />
+          </Link>
           <Link to="/portfolio/lighthouse" className="portfolio-card-link">
             <PortfolioCard 
               productName="Lighthouse"

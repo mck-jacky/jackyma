@@ -37,7 +37,7 @@ const LighthousePage = () => {
         <div className='project-description'>
           <div className='project-event'>
             <BsCalendarEvent size={24} className='icon'/>
-            UNSW CSESoc Annual Flagshop Hackathon - 2nd Place
+            UNSW 2022 CSESoc Annual Flagshop Hackathon - 2nd Place
           </div>
           <p>Lighthouse is a powerful tool that aggregates and manages data from various social media platforms including Instagram, Facebook, and Twitter. Employing smart algorithms, it identifies and prioritizes the most relevant information for users, presenting it in a user-friendly interface.</p>
           <p>Additionally, Lighthouse features a robust content filtering system that eliminates harmful messages, enhancing the safety and experience of social media usage. This strategic design not only alleviates users' fear of missing out but also conserves time spent on social media platforms, ensuring a safe, efficient, and inclusive digital environment.</p>
