@@ -1,19 +1,29 @@
 {
   "files": {
     "main.css": "/jackyma/static/css/main.9a5c0e76.css",
-    "main.js": "/jackyma/static/js/main.ac911be4.js",
+    "main.js": "/jackyma/static/js/main.d66f506a.js",
+    "static/media/YOLO8.png": "/jackyma/static/media/YOLO8.a1e330c67a48ad2a57f8.png",
+    "static/media/YOLO1.png": "/jackyma/static/media/YOLO1.92f97fd0b986718ba900.png",
+    "static/media/YOLO2.png": "/jackyma/static/media/YOLO2.563f585ee58742e151b7.png",
     "static/media/ParkMate1.png": "/jackyma/static/media/ParkMate1.9b641408b0cb3e9bcd56.png",
     "static/media/Lighthouse.png": "/jackyma/static/media/Lighthouse.76bff08247c83607433d.png",
+    "static/media/YOLO9.png": "/jackyma/static/media/YOLO9.f4ad43c3d299e0b2e3c8.png",
     "static/media/ParkMate4.png": "/jackyma/static/media/ParkMate4.1988a0d70bf7a53b90af.png",
     "static/media/ParkMate2.png": "/jackyma/static/media/ParkMate2.49e8eeee528dfd7b6e57.png",
     "static/media/ParkMate3.png": "/jackyma/static/media/ParkMate3.d0896126b5d62693a36e.png",
     "static/media/ParkMate5.png": "/jackyma/static/media/ParkMate5.b0d2438ac46b84bd0a88.png",
     "static/media/Airbrb.png": "/jackyma/static/media/Airbrb.a5bde733cc13a7d458b5.png",
     "static/media/Airbrb3.png": "/jackyma/static/media/Airbrb3.2c24a0acf0f263b2106c.png",
+    "static/media/YOLO7.png": "/jackyma/static/media/YOLO7.124a1a42593b33af4573.png",
+    "static/media/YOLO4.png": "/jackyma/static/media/YOLO4.fd01a690cf9db0de31f2.png",
+    "static/media/YOLO3.png": "/jackyma/static/media/YOLO3.79da294a679d413d0993.png",
+    "static/media/YOLO6.png": "/jackyma/static/media/YOLO6.d60bc12b804ba7866e28.png",
+    "static/media/YOLO5.png": "/jackyma/static/media/YOLO5.678e2259aede79ff08c9.png",
     "static/media/ParkMate6.png": "/jackyma/static/media/ParkMate6.6c7223e4ed0a213538f8.png",
     "static/media/background.jpg": "/jackyma/static/media/background.6001d73e571ca52affcd.jpg",
     "static/media/QuantSoc.png": "/jackyma/static/media/QuantSoc.4df7458eb0f23a9c70a8.png",
     "static/media/lighthouselogo.png": "/jackyma/static/media/lighthouselogo.2080c246e2053289b974.png",
+    "static/media/YOLOLogo.png": "/jackyma/static/media/YOLOLogo.2200de6a96f6da484b8f.png",
     "static/media/AirbrbLogo.png": "/jackyma/static/media/AirbrbLogo.7bbdce1df4c634752ce6.png",
     "static/media/QuantSocLogo.png": "/jackyma/static/media/QuantSocLogo.8e2b31328732f4f43953.png",
     "static/media/Airbrb2.png": "/jackyma/static/media/Airbrb2.e3e98eca0a44b18eac66.png",
@@ -23,10 +33,10 @@
     "static/media/Profile2.jpg": "/jackyma/static/media/Profile2.82ec0a992d88ae25f96c.jpg",
     "index.html": "/jackyma/index.html",
     "main.9a5c0e76.css.map": "/jackyma/static/css/main.9a5c0e76.css.map",
-    "main.ac911be4.js.map": "/jackyma/static/js/main.ac911be4.js.map"
+    "main.d66f506a.js.map": "/jackyma/static/js/main.d66f506a.js.map"
   },
   "entrypoints": [
     "static/css/main.9a5c0e76.css",
-    "static/js/main.ac911be4.js"
+    "static/js/main.d66f506a.js"
   ]
 }
